@@ -282,7 +282,7 @@ def main():
 
     if not gemini_api_key:
         # If environment variable is not set or is empty, fallback to the hardcoded key
-        hardcoded_api_key = "AIzaSyBisxoehBz8UF0i9kX42f1V3jp-9RNq04g" # Your hardcoded key
+        hardcoded_api_key = "GEMINI_API_KEY" # Your hardcoded key
         # Check if the environment variable was truly not set (vs. set to an empty string)
         # to decide if we should print the INFO message.
         if os.getenv("GEMINI_API_KEY") is None: # More specific check for unset env variable
