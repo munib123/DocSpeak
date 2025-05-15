@@ -1,0 +1,10 @@
+gradio
+python-dotenv
+gtts
+docx2pdf
+langchain
+langchain-community
+sentence-transformers
+chromadb
+pypdf
+google-generativeai
