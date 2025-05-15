@@ -103,7 +103,7 @@ class GoogleGeminiWrapper:
 
 # Example usage (uncomment to test):
 if __name__ == "__main__":
-    api_key = "AIzaSyBisxoehBz8UF0i9kX42f1V3jp-9RNq04g" # Replace with your actual key
+    api_key = "Gemini_Api_Key" # Replace with your actual key
     wrapper = GoogleGeminiWrapper(api_key)
 
     # Example 0: List available models
